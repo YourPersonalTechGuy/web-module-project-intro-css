@@ -1,0 +1,131 @@
+/* Importing 'Chelsea Market' and 'Roboto Mono extra light 200' */ 
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400&display=swap');
+
+/* Settings default attributes for the site as requested per the README.md */
+html{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+}
+
+body{
+    padding: 0;
+    margin: 0 5%;
+}
+
+/* Setting the default anchor decoration to none */
+a {
+    text-decoration: none;
+}
+
+/* Setting the navigation item's settings per what was requested in the README.md */
+.n1{
+    background-color: #FF764E;
+}
+
+.n2{
+    background-color: #5ED3EB;
+}
+
+.n3{
+    background-color: #FFCD69;
+}
+
+.navi a {
+    border-radius: 20px ;
+    padding: 25px;
+    margin: 125px;
+}
+
+.navi {
+    margin:5% 0;
+    padding:0;  
+    margin-left: 100px;
+}
+
+/* Setting the default parameters for the main header per README.md */
+h1 {
+    font-family: 'Chelsea Market', cursive;
+    font-size: 4rem;
+    margin-left: -390px;
+}
+
+h4{
+    font-size: 1.5rem;
+    width: 1000px;
+    margin-left: -150px
+}
+
+#h4-2{
+    width: 640px;
+    margin-left: 20px
+}
+
+
+
+/* Setting the main text body parameters per README.md */
+.description {
+    margin-top: 10%;
+    background-color: #DDB9A3;
+    padding: 1% 3%;
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.footer-card {
+    background-color: #F9E7DC;
+    width: 100vw;
+    margin-left: -6%;
+    overflow: hidden;
+    height: 600px;
+    object-fit: cover;
+    object-position: top;
+}
+
+span {
+    font-weight: bold;
+}
+
+.header-picture {
+    border-radius: 50%;
+    width: 25%;
+    margin-right: -100px;
+}
+
+.header-text{
+    margin-left: 40%;
+    text-align: center;
+    width: 1000px;
+    margin-top: -450px;
+}
+
+.campfire img{
+    width: 20%;
+    margin-left: 33vw;
+    margin-top: 50px;
+    
+}
+
+.campfire p{
+    width: 540px;
+    margin-left: 29vw;
+    text-align: center;
+    font-size: 1.25rem;
+}
+
+.rv img{
+    width: 20%;
+    margin-left: 33vw;
+    margin-top: 50px;
+}
+
+.rv p{
+    width: 540px;
+    margin-left: 29vw;
+    text-align: center;
+    font-size: 1.25rem;
+}
+
+
+
